@@ -255,7 +255,7 @@ button:hover {
 
 
 
-.second .container .row .col-4 .content h3{
+.second .container .row .col-4 .content h3 {
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
@@ -265,7 +265,7 @@ button:hover {
 
 
 
-.second .container .row .col-4 .content p{
+.second .container .row .col-4 .content p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -275,20 +275,246 @@ button:hover {
 
 
 /* col-4 elementinə ilkin vəziyyət veririk */
-.second .container .row  .col-4 {
-    position: relative; /* Aşağıdan genişlənmə üçün lazımdır */
-    transition: all 0.3s ease; /* Keçid effekti */
-    overflow: visible; /* Genişlənmə zamanı sərhəddən çıxmaması üçün */
-    z-index: 1; /* Daxili z-index dəyəri */
+.second .container .row .col-4 {
+    position: relative;
+    /* Aşağıdan genişlənmə üçün lazımdır */
+    transition: all 0.3s ease;
+    /* Keçid effekti */
+    overflow: visible;
+    /* Genişlənmə zamanı sərhəddən çıxmaması üçün */
+    z-index: 1;
+    /* Daxili z-index dəyəri */
     box-shadow: 0px 32px 64px -12px #10182824;
 
 }
 
 /* Siçan col-4 elementinin üzərinə gəldikdə */
-.second .container .row  .col-4:hover {
-    transform: scaleY(1.2); /* Y oxu boyunca uzunluğu 20% artır */
-    transform-origin: top; /* Genişlənmə aşağıdan olsun */
-    z-index: 2; /* Üstünlük dərəcəsi artır */
+.second .container .row .col-4:hover {
+    transform: scaleY(1.2);
+    /* Y oxu boyunca uzunluğu 20% artır */
+    transform-origin: top;
+    /* Genişlənmə aşağıdan olsun */
+    z-index: 2;
+    /* Üstünlük dərəcəsi artır */
+    box-shadow: 0px 32px 64px -12px #10182824;
+
+}
+
+
+.third {
+    margin-left: 250px;
+    width: 75%;
+    height: 352px;
+
+    margin-top: 150px;
+    border-radius: 8px;
+
+    background: rgb(11, 42, 110);
+    background: -moz-linear-gradient(90deg, rgba(11, 42, 110, 1) 0%, rgba(46, 15, 124, 1) 100%, rgba(22, 70, 149, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(11, 42, 110, 1) 0%, rgba(46, 15, 124, 1) 100%, rgba(22, 70, 149, 1) 100%);
+    background: linear-gradient(90deg, rgba(11, 42, 110, 1) 0%, rgba(46, 15, 124, 1) 100%, rgba(22, 70, 149, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b2a6e", endColorstr="#164695", GradientType=1);
+
+}
+
+.third .container .checkDoc {
+
+    width: 680px;
+    height: 352px;
+    gap: 0px;
+    opacity: 0.6px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third .container .checkDoc .row .content {
+    width: 480px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.third .container .checkDoc .row .content h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+
+.third .container .checkDoc .row .content p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #CDD5DF;
+
+    text-align: left;
+
+}
+
+/* .third .container .checkDoc .row  */
+
+/* .third .container .checkDoc  .inputs .input1 {
+    width: 416px;
+    height: 56px;
+    padding: 7px 16px 7px 16px;
+    gap: 12px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+} */
+
+.custom-select option {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.inputs {
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 70px;
+}
+
+
+.fourth {
+    width: 1, 920px;
+    height: 668px;
+    padding: 120px 396px 120px 396px;
+    gap: 64px;
+    opacity: 0px;
+    background: rgb(248, 250, 252);
+    background: -moz-linear-gradient(90deg, rgba(248, 250, 252, 1) 0%, rgba(22, 70, 149, 1) 100%, rgba(15, 124, 121, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(248, 250, 252, 1) 0%, rgba(22, 70, 149, 1) 100%, rgba(15, 124, 121, 1) 100%);
+    background: linear-gradient(90deg, rgba(248, 250, 252, 1) 0%, rgba(22, 70, 149, 1) 100%, rgba(15, 124, 121, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f8fafc", endColorstr="#0f7c79", GradientType=1);
+    margin-top: 150px;
+
+}
+
+.fourth .popular_services .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1, 128px;
+    align-items: center;
+
+
+}
+
+.fourth .popular_services .content {
+    width: 552px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+    width: 1100px;
+
+}
+
+.fourth .popular_services .content h1 {
+
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: left;
+
+}
+
+.fourth .popular_services .content p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+
+.fourth .popular_services_block .row .col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 360px;
+    height: 268px;
+    padding: 32px;
+    gap: 24px;
+    border-radius: 12px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #E3E8EF;
+    margin-top: 24px;
+    margin-left: 24px;
+
+}
+
+
+.fourth .popular_services_block .row .col-4 .row .icon_serivce {
+    width: 64px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #EEF2F6;
+
+
+}
+
+
+
+.fourth .popular_services_block .row .col-4 .content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+
+
+.fourth .popular_services_block .row .col-4 .content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 80%;
+}
+
+
+/* col-4 elementinə ilkin vəziyyət veririk */
+.fourth .popular_services_block .row .col-4 {
+    position: relative;
+    /* Aşağıdan genişlənmə üçün lazımdır */
+    transition: all 0.3s ease;
+    /* Keçid effekti */
+    overflow: visible;
+    /* Genişlənmə zamanı sərhəddən çıxmaması üçün */
+    z-index: 1;
+    /* Daxili z-index dəyəri */
+    box-shadow: 0px 32px 64px -12px #10182824;
+
+}
+
+/* Siçan col-4 elementinin üzərinə gəldikdə */
+.fourth .popular_services_block .row .col-4:hover {
+    transform: scaleY(1.2);
+    /* Y oxu boyunca uzunluğu 20% artır */
+    transform-origin: top;
+    /* Genişlənmə aşağıdan olsun */
+    z-index: 2;
+    /* Üstünlük dərəcəsi artır */
     box-shadow: 0px 32px 64px -12px #10182824;
 
 }
